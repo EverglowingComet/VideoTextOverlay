@@ -12,6 +12,7 @@
 		D3A9349222D7D176004B5ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9349022D7D176004B5ECA /* Main.storyboard */; };
 		D3A9349422D7D17B004B5ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A9349322D7D17B004B5ECA /* Assets.xcassets */; };
 		D3A9349722D7D17B004B5ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9349522D7D17B004B5ECA /* LaunchScreen.storyboard */; };
+		D3A934A022D7D536004B5ECA /* movie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = D3A9349F22D7D536004B5ECA /* movie1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D3A9349322D7D17B004B5ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A9349622D7D17B004B5ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A9349822D7D17B004B5ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A9349F22D7D536004B5ECA /* movie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D3A9348B22D7D176004B5ECA /* VideoText */ = {
 			isa = PBXGroup;
 			children = (
+				D3A9349E22D7D4CC004B5ECA /* New Group */,
 				D3A9348C22D7D176004B5ECA /* AppDelegate.swift */,
 				D3A9348E22D7D176004B5ECA /* ViewController.swift */,
 				D3A9349022D7D176004B5ECA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D3A9349822D7D17B004B5ECA /* Info.plist */,
 			);
 			path = VideoText;
+			sourceTree = "<group>";
+		};
+		D3A9349E22D7D4CC004B5ECA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D3A9349F22D7D536004B5ECA /* movie1.mov */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				D3A9349722D7D17B004B5ECA /* LaunchScreen.storyboard in Resources */,
 				D3A9349422D7D17B004B5ECA /* Assets.xcassets in Resources */,
 				D3A9349222D7D176004B5ECA /* Main.storyboard in Resources */,
+				D3A934A022D7D536004B5ECA /* movie1.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B425UL339A;
 				INFOPLIST_FILE = VideoText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B425UL339A;
 				INFOPLIST_FILE = VideoText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
